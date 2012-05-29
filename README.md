@@ -1,17 +1,23 @@
-ABA-Validator
+ABAValidator
 =============
 
 The American Bankers Association validation module provides a way of validating US-based Routing Number both on the client side in the user's browser as well as server side with Node.js.
 
 ## Installation ##
 
-TBD
+    npm install ABAValidator
 
 ## Testing ##
 
+The ABAValidator module has unit tests built around it than can be used to verify the package before usage.  The tests are written with the Mocha and Should modules and running the below command will import such.  
+
+    npm test ABAValidator
+
+## Node.js Usage ##
+
 TBD
 
-## Usage ##
+## Web Browser Usage ##
 
 TBD
 
