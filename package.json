@@ -1,0 +1,18 @@
+{
+  "name": "aba-validation",
+  "version": "0.0.1",
+  "author": "James Eggers <james.r.eggers@gmail.com> (http://www.jamesreggers.com/)",
+  "description": "A client and server side validation module for validating US-based Routing Numbers.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JamesEggers1/TBD"
+  },
+  "main": "./aba-validation.JS",
+  "engines": {
+    "node": "*"
+  },
+  "tags": [ "ach", "validation"],
+  "bugs": {
+    "url": "https://github.com/JamesEggers1/TBD/issues"
+  }
+}
