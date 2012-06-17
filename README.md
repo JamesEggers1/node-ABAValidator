@@ -18,17 +18,26 @@ The ABAValidator module has unit tests built around it than can be used to verif
 Once the package has been installed using `npm`, using the module is very simple.  At the moment, the module includes an `ABAValidator` object that exposes a single method, `validate`.  `validate` accepts a single string parameter that represents the routing number.
 
 #### Node.js ####
-    var aba = require("ABAValidator").ABAValidator;
-	var is_valid = aba.validate("123123123"); // should respond true.
+
+```javascript
+var aba = require("ABAValidator").ABAValidator;
+var is_valid = aba.validate("123123123"); // should respond true.
+```
 
 In addition to being usable as a Node.js module, the validator can also be used client-side in the user's web browser.
 
 #### Html ####
-    <script type="text/javascript" src="path/to/aba-validation.js"></script>
+
+```html
+<script type="text/javascript" src="path/to/aba-validation.js"></script>
+```
 
 #### JavaScript ####
-    var aba = ABAValidator;
-    var is_valid = aba.validate("123123123"); // should respond true.
+
+```javascript
+var aba = ABAValidator;
+var is_valid = aba.validate("123123123"); // should respond true.
+```
 
 By default, the ABAValidator module places itself into the global scope in the browser.  If you would prefer to NOT have it be directly attached to the `window` object, you can add your own `namespace` at the top of the aba-validator.js file.
 
