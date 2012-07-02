@@ -1,6 +1,6 @@
 {
   "name": "ABAValidator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "James Eggers <james.r.eggers@gmail.com> (http://www.jamesreggers.com/)",
   "description": "A validation module for browsers and Node.js to validate an American Bankers Association Routing Number used in ACH payments.",
   "homepage": "https://github.com/JamesEggers1/node-ABAValidator",
@@ -15,7 +15,7 @@
   "scripts": {
 	"test": "mocha tests/aba-validation-tests.js -R spec"
   },
-  "tags": [ "ach", "validation", "browser"],
+  "keywords": [ "ach", "validation", "browser"],
   "bugs": {
     "url": "https://github.com/JamesEggers1/node-ABAValidator/issues"
   },
