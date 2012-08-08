@@ -24,7 +24,15 @@ var aba = require("ABAValidator").ABAValidator;
 var is_valid = aba.validate("123123123"); // should respond true.
 ```
 
-In addition to being usable as a Node.js module, the validator can also be used client-side in the user's web browser.
+## Using ABAValidator Client-Side ##
+In addition to being usable as a Node.js module, the validator can also be used client-side in the user's web browser.  When you install `ABAValidator` using `npm`, instructions will appear how to install it for client-side JavaScript consumption.
+
+While you can copy the `aba-validation.js` file from the module's installation directory under `node_modles`, an automated script has been provided to assist you in this copy process and to make it more streamlined.  To do a client-side install, simply type the following `npm` command:
+
+    npm run-script ABAValidator client-install
+
+Once you run that command, you'll be prompted to provide the path to which to install `aba-validation.js` for use by your client-side JavaScript.  At that point, you can reference the file in your html and JavaScript code as shown below.
+
 
 #### Html ####
 
@@ -41,7 +49,7 @@ var is_valid = aba.validate("123123123"); // should respond true.
 
 By default, the ABAValidator module places itself into the global scope in the browser.  If you would prefer to NOT have it be directly attached to the `window` object, you can add your own `namespace` at the top of the aba-validator.js file.
 
-## License ##
+## License (MIT) ##
 
 Copyright (c) 2012 James Eggers
 
