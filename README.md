@@ -49,6 +49,10 @@ var is_valid = aba.validate("123123123"); // should respond true.
 
 By default, the ABAValidator module places itself into the global scope in the browser.  If you would prefer to NOT have it be directly attached to the `window` object, you can add your own `namespace` at the top of the aba-validator.js file.
 
+## Contributors ##
+James Eggers
+[Roman Shtylman](https://github.com/shtylman)
+
 ## License (MIT) ##
 
 Copyright (c) 2012 James Eggers
