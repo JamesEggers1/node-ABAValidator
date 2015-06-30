@@ -1,32 +1,38 @@
 {
-  "name": "ABAValidator"
-  , "version": "1.0.5"
-  , "author": "James Eggers <james.r.eggers@gmail.com> (http://www.jamesreggers.com/)"
-  , "contributors": [ 
-	    { "name": "Roman Shtylman", "email": "shtylman@gmail.com" }
-	  ]
-  , "description": "A validation module for browsers and Node.js to validate an American Bankers Association Routing Number used in ACH payments."
-  , "homepage": "https://github.com/JamesEggers1/node-ABAValidator"
-  , "repository": {
-    	"type": "git"
-    	, "url": "git://github.com/JamesEggers1/node-ABAValidator.git"
-  }
-  , "main": "./src/aba-validation"
-  , "engines": {
-    	"node": "*"
-  }
-  , "scripts": {
-		"test": "mocha tests/aba-validation-tests.js -R spec"
-		, "client-install": "node bin/client-install.js"
-		, "install": "node bin/client-install-directions.js"
-		, "update": "node bin/client-install-directions.js"
-  }
-  , "keywords": [ "ach", "validation", "browser"]
-  , "bugs": {
-    	"url": "https://github.com/JamesEggers1/node-ABAValidator/issues"
-  }
-  , "devDependencies": {
-		"should" : "0.6.3"
-		, "mocha":"1.2.1"
+  "name": "ABAValidator",
+  "version": "2.0.0",
+  "author": "James Eggers <james.r.eggers@gmail.com> (http://www.jamesreggers.com/)",
+  "contributors": [
+    {
+      "name": "Roman Shtylman",
+      "email": "shtylman@gmail.com"
+    }
+  ],
+  "description": "A validation module for browsers and Node.js to validate an American Bankers Association Routing Number used in ACH payments.",
+  "license": "MIT",
+  "homepage": "https://github.com/JamesEggers1/node-ABAValidator",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JamesEggers1/node-ABAValidator.git"
+  },
+  "main": "./src/aba-validation",
+  "browser": "./src/aba-validation-min.js",
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "scripts": {
+    "test": "mocha tests/aba-validation-tests.js -R spec"
+  },
+  "keywords": [
+    "ach",
+    "validation",
+    "browserify"
+  ],
+  "bugs": {
+    "url": "https://github.com/JamesEggers1/node-ABAValidator/issues"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.1"
   }
 }

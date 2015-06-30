@@ -1,7 +1,7 @@
 "use strict";
 var mocha = require("mocha")
 	, should = require("should")
-	, aba = require("../src/aba-validation").ABAValidator
+	, aba = require("../src/aba-validation")
 	, _VALID_ROUTING_NUMBER = "123123123";
 	
 describe("ABA Validation", function(){
