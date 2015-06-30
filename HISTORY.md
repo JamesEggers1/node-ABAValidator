@@ -4,7 +4,7 @@
 - Cleaned up implementation similar to the Luhn package.
 - Added Browserify Support
 - Updated Travis environments to v0.6-v0.12
-- package version -> 2.0.2
+- package version -> 2.0.1
 
 ## 2012-08-15 ##
 - Merged in code refactoring from [Roman Shtylman](https://github.com/shtylman)

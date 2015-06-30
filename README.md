@@ -5,13 +5,13 @@ The American Bankers Association validation module provides a way of validating 
 
 ## Installation ##
 
-    npm install ABAValidator
+    npm install abavalidator
 
 ## Testing ##
 
 The ABAValidator module has unit tests built around it than can be used to verify the package before usage.  The tests are written with the Mocha and Should modules and running the below command will import such.  
 
-    npm test ABAValidator
+    npm test abavalidator
 
 ## Usage ##
 
@@ -20,7 +20,7 @@ Once the package has been installed using `npm`, using the module is very simple
 #### Node.js ####
 
 ```javascript
-var aba = require("ABAValidator");
+var aba = require("abavalidator");
 var is_valid = aba.validate("123123123"); // should respond true.
 ```
 
