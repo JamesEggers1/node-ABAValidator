@@ -1,6 +1,6 @@
 {
   "name": "ABAValidator",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "James Eggers <james.r.eggers@gmail.com> (http://www.jamesreggers.com/)",
   "contributors": [
     {
@@ -32,7 +32,7 @@
     "url": "https://github.com/JamesEggers1/node-ABAValidator/issues"
   },
   "devDependencies": {
-    "mocha": "^2.2.5",
+    "mocha": "^1.21.5",
     "should": "^7.0.1"
   }
 }
