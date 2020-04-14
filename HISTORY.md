@@ -1,3 +1,7 @@
+## 2020-04-14 ##
+- General maintenance of version and readme file.
+- package version -> 2.0.2
+
 ## 2015-06-30 ##
 - Updated devDependencies and License info to package.json
 - Dropped Node v0.4 support (previously tested fine but no longer testing it)
