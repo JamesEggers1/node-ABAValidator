@@ -1,1 +1,0 @@
-"use strict",module.exports=function(){function a(a){var b=a.match(/^\s*([\d]{9})\s*$/);if(!b)return!1;var c=[3,7,1],d=b[1],e=0;for(var f=0;f<9;++f)e+=d.charAt(f)*c[f%3];return e!==0&&e%10===0}return{validate:a}}();

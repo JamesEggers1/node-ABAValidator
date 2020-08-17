@@ -1,6 +1,6 @@
 "use strict";
 module.exports = (function(){
-	function validate(routingNumber){
+	function validate(routingNumber: string){
 		var match = routingNumber.match(/^\s*([\d]{9})\s*$/);
 		if (!match) {
 			return false;
@@ -12,7 +12,7 @@ module.exports = (function(){
 		var sum = 0;
 		for (var i=0 ; i<9 ; ++i) {
 			// using charAt for IE7 support
-			sum += aba.charAt(i) * weights[i % 3];
+			sum += +aba.charAt(i) * weights[i % 3];
 		}
 
 		return (sum !== 0 && sum % 10 === 0);

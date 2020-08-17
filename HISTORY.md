@@ -1,3 +1,8 @@
+## 2020-08-16 ##
+- Package Updates
+- Added Typescript support
+- package version -> 3.0.0
+
 ## 2020-04-14 ##
 - General maintenance of version and readme file.
 - package version -> 2.0.2

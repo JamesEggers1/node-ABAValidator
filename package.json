@@ -1,6 +1,6 @@
 {
   "name": "abavalidator",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "author": "James Eggers <james.r.eggers@gmail.com> (http://www.jamesreggers.com/)",
   "contributors": [
     {
@@ -15,12 +15,14 @@
     "type": "git",
     "url": "git://github.com/JamesEggers1/node-ABAValidator.git"
   },
-  "main": "./src/aba-validation",
-  "browser": "./src/aba-validation-min.js",
+  "main": "./dist/aba-validation",
+  "browser": "./dist/aba-validation-min.js",
+  "types": "./dist/aba-validation.d.ts",
   "engines": {
     "node": ">= 10"
   },
   "scripts": {
+    "build": "tsc",
     "test": "mocha tests/aba-validation-tests.js -R spec"
   },
   "keywords": [
@@ -32,7 +34,8 @@
     "url": "https://github.com/JamesEggers1/node-ABAValidator/issues"
   },
   "devDependencies": {
-    "mocha": "^8.0.1",
-    "should": ">=5.0.1"
+    "@types/node": "^14.0.27",
+    "mocha": "^8.1.1",
+    "should": "^13.2.3"
   }
 }
