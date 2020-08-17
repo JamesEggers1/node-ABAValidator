@@ -23,7 +23,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "mocha tests/aba-validation-tests.js -R spec"
+    "test": "mocha tests/aba-validation-tests.js -R spec",
+    "minify": "uglifyjs --compress --output dist/aba-validation.min.js -- dist/aba-validation.js"
   },
   "keywords": [
     "ach",
