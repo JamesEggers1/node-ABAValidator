@@ -2,18 +2,21 @@
     "env": {
         "browser": true,
         "commonjs": true,
-        "es2020": true
+        "es2020": true,
+        "mocha": true
     },
     "extends": [
         "eslint:recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "plugin:mocha/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": 11
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "mocha"
     ],
     "rules": {
     }

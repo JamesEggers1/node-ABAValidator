@@ -1,7 +1,9 @@
 "use strict";
-var mocha = require("mocha")
-	, should = require("should")
-	, aba = require("../dist/aba-validation")
+require("mocha");
+require("should");
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const aba = require("../dist/aba-validation")
 	, _VALID_ROUTING_NUMBER = "123123123";
 	
 describe("ABA Validation", function(){
