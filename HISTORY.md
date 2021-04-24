@@ -1,4 +1,8 @@
 ## 2020-08-16 ##
+- Updated Typescript support
+- package version -> 3.1.0
+
+## 2020-08-16 ##
 - Package Updates
 - Added Typescript support
 - package version -> 3.0.0

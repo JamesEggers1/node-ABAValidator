@@ -1,13 +1,7 @@
 {
   "name": "abavalidator",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "author": "James Eggers <james.r.eggers@gmail.com> (http://www.jamesreggers.com/)",
-  "contributors": [
-    {
-      "name": "Roman Shtylman",
-      "email": "shtylman@gmail.com"
-    }
-  ],
   "description": "A validation module for browsers and Node.js to validate an American Bankers Association Routing Number used in ACH payments.",
   "license": "MIT",
   "homepage": "https://github.com/JamesEggers1/node-ABAValidator",
