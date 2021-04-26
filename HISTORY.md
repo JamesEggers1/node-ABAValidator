@@ -1,4 +1,8 @@
-## 2020-08-16 ##
+## 2021-04-26 ##
+- Updated Typescript support
+- package version -> 3.1.1
+
+## 2021-04-24 ##
 - Updated Typescript support
 - package version -> 3.1.0
 
