@@ -10,7 +10,7 @@
     "url": "git://github.com/JamesEggers1/node-ABAValidator.git"
   },
   "main": "./dist/aba-validation",
-  "browser": "./dist/aba-validation-min.js",
+  "browser": "./dist/aba-validation.min.js",
   "types": "./dist/aba-validation.d.ts",
   "engines": {
     "node": ">= 10"
