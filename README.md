@@ -1,4 +1,4 @@
-ABAValidator  [![Build Status](https://secure.travis-ci.org/JamesEggers1/node-ABAValidator.png)](http://travis-ci.org/JamesEggers1/node-ABAValidator)
+ABAValidator  [![Build Status](https://travis-ci.com/JamesEggers1/node-ABAValidator.svg?branch=master)](https://travis-ci.com/github/JamesEggers1/node-ABAValidator)
 =============
 
 The American Bankers Association validation module provides a way of validating US-based Routing Number both on the client side in the user's browser as well as server side with Node.js.
