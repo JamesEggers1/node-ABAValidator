@@ -1,3 +1,8 @@
+## 2021-06-26 ##
+- Merged in fix to minify command
+- Updated NPM dependencies
+- package version -> 3.1.2
+
 ## 2021-04-26 ##
 - Updated Typescript support
 - package version -> 3.1.1
